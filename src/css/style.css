@@ -1,0 +1,44 @@
+ body{
+    background: rgb(210, 243, 168);
+}
+
+
+.button{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(7, 68, 10);
+    color: white;
+    border: solid 3px rgb(40, 138, 48);
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+
+}
+
+.pop_container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    max-width: 250px;
+    border: 1px #b4b4b4 solid;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.pop_title {
+    background-color: #e6e6e6;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.pop_text {
+    padding: 5px 10px;
+} 
+
+.button_container {
+    display: flex;
+    margin: 200px auto;
+    justify-content: center;
+}
